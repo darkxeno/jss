@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "jss",
   "private": true,
   "workspaces": [
     "packages/*"
