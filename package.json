@@ -4,6 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "version": "10.0.1",
   "scripts": {
     "build": "lerna run build",
     "prepublishOnly": "yarn check-snapshots && yarn build && yarn typecheck && yarn lint && yarn format:ci && yarn test",
